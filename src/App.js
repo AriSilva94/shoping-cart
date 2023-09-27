@@ -2,11 +2,12 @@
 /* eslint-disable no-undef */
 import React, { useState, useEffect, useCallback } from "react";
 import Amazon from "./components/amazon";
-import Navbar from "./components/navbar";
+import Header from "./components/header";
 import Cart from "./components/cart";
 import dataList from "./data";
 import { DBConfig } from "./services/DBConfig";
 import { initDB, useIndexedDB } from "react-indexed-db-hook";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 initDB(DBConfig);
 
@@ -16,6 +17,9 @@ const App = () => {
   const { add } = useIndexedDB("products");
   const { getAll } = useIndexedDB("products");
   const [products, setProducts] = useState([]);
+  const [productsFiltered, setProductsFiltered] = useState([]);
+  const [isFiltered, setIsFiltered] = useState(false);
+  const [searchValue, setSearchValue] = useState("");
 
   const loadDataBase = () => {
     add(dataList).then(() => {
@@ -47,15 +51,41 @@ const App = () => {
     setCart([...arr]);
   };
 
+  const handleList = (event) => {
+    setIsFiltered(true);
+    const searchValue = event.target.value.toLowerCase();
+    setSearchValue(searchValue);
+    const filteredProducts = products.filter((item) =>
+      item.title.toLowerCase().includes(searchValue)
+    );
+    setProductsFiltered(filteredProducts);
+  };
+
+  const cleanForm = () => {
+    setIsFiltered(false);
+    setSearchValue("");
+  };
+
   useEffect(() => {
     getAllProducts();
   }, [getAllProducts]);
 
   return (
     <React.Fragment>
-      <Navbar setShow={setShow} size={cart.length} />
+      <Header setShow={setShow} size={cart.length} />
       {show ? (
-        <Amazon handleClick={handleClick} {...{ products, loadDataBase }} />
+        <Amazon
+          handleClick={handleClick}
+          {...{
+            products,
+            loadDataBase,
+            handleList,
+            productsFiltered,
+            isFiltered,
+            cleanForm,
+            searchValue,
+          }}
+        />
       ) : (
         <Cart cart={cart} setCart={setCart} handleChange={handleChange} />
       )}

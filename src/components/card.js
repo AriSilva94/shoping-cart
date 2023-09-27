@@ -13,7 +13,7 @@ const Cards = ({ item, handleClick }) => {
       </div>
       <div className="description">
         <div className="details">
-          <p>{title}</p>
+          <h3>{title}</h3>
         </div>
         <div className="hr"></div>
         <div className="details">

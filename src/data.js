@@ -12,7 +12,7 @@ const list = [
     title: "Arroz",
     category: "básico",
     price: 0,
-    img: "assets/img/arroz.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/351426-800-auto?v=638080386153900000&width=800&height=auto&aspect=true",
     amount: 1,
   },
   {
@@ -20,7 +20,7 @@ const list = [
     title: "Carne",
     category: "carne",
     price: 0,
-    img: "assets/img/carne.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/357960-300-300?v=1782173176&width=300&height=300&aspect=true",
     amount: 1,
   },
   {
@@ -28,7 +28,7 @@ const list = [
     title: "Maçã",
     category: "fruta",
     price: 0,
-    img: "assets/img/maca.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/356916-300-300?v=1782176707&width=300&height=300&aspect=true",
     amount: 1,
   },
   {
@@ -36,7 +36,7 @@ const list = [
     title: "Alface",
     category: "vegetal",
     price: 0,
-    img: "assets/img/alface.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/369189-800-auto?v=638081065640400000&width=800&height=auto&aspect=true",
     amount: 1,
   },
   {
@@ -44,7 +44,7 @@ const list = [
     title: "Frango",
     category: "carne",
     price: 0,
-    img: "assets/img/frango.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/403732-300-300?v=1782168190&width=300&height=300&aspect=true",
     amount: 1,
   },
   {
@@ -52,7 +52,7 @@ const list = [
     title: "Banana",
     category: "fruta",
     price: 0,
-    img: "assets/img/banana.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/363170-800-auto?v=638080725364370000&width=800&height=auto&aspect=true",
     amount: 1,
   },
   {
@@ -68,7 +68,7 @@ const list = [
     title: "Salmão",
     category: "peixe",
     price: 0,
-    img: "assets/img/salmao.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/368045-300-300?v=1782164349&width=300&height=300&aspect=true",
     amount: 1,
   },
   {
@@ -76,7 +76,7 @@ const list = [
     title: "Laranja",
     category: "fruta",
     price: 0,
-    img: "assets/img/laranja.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/372580-300-300?v=1782177904&width=300&height=300&aspect=true",
     amount: 1,
   },
   {
@@ -92,7 +92,7 @@ const list = [
     title: "Pera",
     category: "fruta",
     price: 0,
-    img: "assets/img/pera.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/354608-300-300?v=1782177902&width=300&height=300&aspect=true",
     amount: 1,
   },
   {
@@ -100,15 +100,15 @@ const list = [
     title: "Brócolis",
     category: "vegetal",
     price: 0,
-    img: "assets/img/brocolis.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/346079-300-300?v=1782174312&width=300&height=300&aspect=true",
     amount: 1,
   },
   {
     id: 19,
-    title: "Peixe Dourado",
+    title: "Peixe",
     category: "peixe",
     price: 0,
-    img: "assets/img/peixe.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/347373-300-300?v=1782176709&width=300&height=300&aspect=true",
     amount: 1,
   },
   {
@@ -116,7 +116,7 @@ const list = [
     title: "Uva",
     category: "fruta",
     price: 0,
-    img: "assets/img/uva.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/371098-300-300?v=1782177902&width=300&height=300&aspect=true",
     amount: 1,
   },
   {
@@ -124,7 +124,7 @@ const list = [
     title: "Espinafre",
     category: "vegetal",
     price: 0,
-    img: "assets/img/espinafre.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/359397-300-300?v=1782168163&width=300&height=300&aspect=true",
     amount: 1,
   },
   {
@@ -132,7 +132,7 @@ const list = [
     title: "Manga",
     category: "fruta",
     price: 0,
-    img: "assets/img/manga.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/368455-300-300?v=1782177902&width=300&height=300&aspect=true",
     amount: 1,
   },
   {
@@ -148,7 +148,7 @@ const list = [
     title: "Abacaxi",
     category: "fruta",
     price: 0,
-    img: "assets/img/abacaxi.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/361134-300-300?v=1782179063&width=300&height=300&aspect=true",
     amount: 1,
   },
   {
@@ -156,7 +156,7 @@ const list = [
     title: "Couve",
     category: "vegetal",
     price: 0,
-    img: "assets/img/couve.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/347901-300-300?v=1782177905&width=300&height=300&aspect=true",
     amount: 1,
   },
   {
@@ -164,7 +164,7 @@ const list = [
     title: "Melancia",
     category: "fruta",
     price: 0,
-    img: "assets/img/melancia.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/345953-300-300?v=1782175539&width=300&height=300&aspect=true",
     amount: 1,
   },
   {
@@ -172,7 +172,7 @@ const list = [
     title: "Pimentão",
     category: "vegetal",
     price: 0,
-    img: "assets/img/pimentao.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/355978-300-300?v=1782179062&width=300&height=300&aspect=true",
     amount: 1,
   },
   {
@@ -180,7 +180,7 @@ const list = [
     title: "Kiwi",
     category: "fruta",
     price: 0,
-    img: "assets/img/kiwi.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/346489-300-300?v=1782177905&width=300&height=300&aspect=true",
     amount: 1,
   },
   {
@@ -196,7 +196,7 @@ const list = [
     title: "Mamão",
     category: "fruta",
     price: 0,
-    img: "assets/img/mamao.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/367905-300-300?v=1782176708&width=300&height=300&aspect=true",
     amount: 1,
   },
   {
@@ -204,7 +204,7 @@ const list = [
     title: "Morango",
     category: "fruta",
     price: 0,
-    img: "assets/img/morango.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/371828-300-300?v=1782176680&width=300&height=300&aspect=true",
     amount: 1,
   },
   {
@@ -212,7 +212,7 @@ const list = [
     title: "Abóbora",
     category: "vegetal",
     price: 0,
-    img: "assets/img/abobora.jpg",
+    img: "https://savegnagoio.vtexassets.com/arquivos/ids/360004-300-300?v=1782177902&width=300&height=300&aspect=true",
     amount: 1,
   },
 ];
